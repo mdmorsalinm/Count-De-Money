@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Count the Money</h1>
+    <div class="whole">
+        <div class="coins">
+            <p id="pennyNum">Number of Pennies: <p>
+            <p id="pennyTotal">Total Value of Pennies: </p>
+            <button id="pennyAdd" class="add" onclick="addPenny()">Add</button>
+            <button id="pennySubtract" class="subtract" onclick="subPenny()">Subtract</button>
+        </div>
+        <div class="coins">
+            <p id="nickelNum">Number of Nickels: <p>
+            <p id="nickelTotal">Total Value of Nickels: </p>
+            <button id="nickelAdd" class="add" onclick="addNickel()">Add</button>
+            <button id="nickelSubtract" class="subtract" onclick="subNickel()">Subtract</button>
+        </div>
+        <div class="coins">
+            <p id="dimeNum">Number of Dimes: <p>
+            <p id="dimeTotal">Total Value of Dimes: </p>
+            <button id="dimeAdd" class="add" onclick="addDime()">Add</button>
+            <button id="dimeSubtract" class="subtract" onclick="subDime()">Subtract</button>
+        </div>
+        <div class="coins">
+            <p id="quarterNum">Number of Quarters: <p>
+            <p id="quarterTotal">Total Value of Quarter: </p>
+            <button id="quarterAdd" class="add" onclick="addQuarter()">Add</button>
+            <button id="quarterSubtract" class="subtract" onclick="subQuarter()">Subtract</button>
+        </div>
+        <div class="coins">
+            <p id="halfDollarNum">Number of Half Dollars: <p>
+            <p id="halfDollarTotal">Total Value of Half Dollar: </p>
+            <button id="halfDollarAdd" class="add" onclick="addHalfDollar()">Add</button>
+            <button id="halfDollarSubtract" class="subtract" onclick="subHalfDollar()">Subtract</button>
+        </div>
+        <div class="coins">
+            <p id="dollarNum">Number of Dollars: <p>
+            <p id="dollarTotal">Total Value of Dollars: </p>
+            <button id="dollarAdd" class="add" onclick="addDollar()">Add</button>
+            <button id="dollarSubtract" class="subtract" onclick="subDollar()">Subtract</button>
+        </div>
+        <div class="coins">
+            <h6>Add or Subtract 5 Coins</h6>
+            <button id="bigAdd" class="add" onclick="addFive()">Add</button>
+            <button id="bigSubtract" class="subtract" onclick="subFive()">Subtract</button>
+        </div>
+    </div>
+    <p id="totalMoney">Total Money: </p>
+    <script src="index.js"></script>
+</body>
+</html>

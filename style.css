@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(142, 194, 142);
+    text-align: center;
+
+}
+
+.whole {
+    display: flex;
+    flex-wrap: wrap;
+}
+.coins {
+    background-color: rgb(52, 82, 52);
+    color: white;
+    text-align: left;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid rgb(31, 37, 31);
+    min-width: 250px;
+    height: auto;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.add {
+    background-color: greenyellow;
+}
+
+.subtract {
+    background-color: red;
+}
+
+#totalMoney {
+    margin-top: 100px;
+    font-size: 25px;
+    color: rgb(5, 8, 6);
+}
+
+h6 {
+    font-size: 15px;
+}
+
+
